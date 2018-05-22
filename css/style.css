@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,42 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+h1, h2 {
+	color: rgba(155,167,163,1)
+}
+
+h1 {
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc
+}
+
+#neck-image {
+	border: 5px rgb(152,173,166) solid;
+}
+
+.press-icon img{
+	display: inline;
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+.press-icon img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+#trademark {
+	font-size:0.75em;
+	float: right;
+}
